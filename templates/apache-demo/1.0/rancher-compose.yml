@@ -9,12 +9,13 @@
       type: "string"
       default: "8080"
     - variable: "branch"
-      label: "branch"
+      label: "apache-version"
       description: "Choose a branch"
       required: true
       type: "enum"
-      default: "2.4"
+      default: "2-4"
       options:
-        - "2.4"
-        - "2.2"
+        - "2-4"
+        - "2-2"
    	- "2"
+

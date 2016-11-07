@@ -1,5 +1,5 @@
 httpd:
-  image: httpd:2.4
-  container_name: httpd-2-4
+  image: httpd:${branch}
+  container_name: httpd
   ports:
     - "${http_port}:80"

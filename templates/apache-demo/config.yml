@@ -1,0 +1,8 @@
+name: Apache Demo
+description: |
+  # Simple Apache Demo
+version: 1.0
+category: server
+maintainer: krtx1
+license: FREE
+projectURL: https://github.com/krtx1

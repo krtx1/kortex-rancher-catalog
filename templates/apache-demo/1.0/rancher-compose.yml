@@ -1,0 +1,10 @@
+.catalog:
+  name: "Apache Demo"
+  version: "v1.0"
+  description: Apache demo to test httpd
+  minimum_rancher_version: v0.44.0
+  questions:
+    - variable: http_port
+      label: Port for Apache
+      type: "string"
+      default: "8080"

@@ -8,12 +8,13 @@
       label: Port for Apache
       type: "string"
       default: "8080"
-    - variable: branch
-      label: Choose a version of Apache
+    - variable: "branch"
+      label: "branch"
+      description: "Choose a branch"
       required: true
       type: "enum"
       default: "2.4"
       options:
-        - 2.4
-        - 2.2
-   	- 2
+        - "2.4"
+        - "2.2"
+   	- "2"
